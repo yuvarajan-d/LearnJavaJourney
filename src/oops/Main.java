@@ -25,16 +25,30 @@ public class Main {
 //		p.arithmetic(2.3f,4.5f);
 //		p.arithmetic(1, 2, 3);
 		
-		Childoverride co=new Childoverride();
-		co.game();
-		
-		System.out.println("Encapsulation...");
-		Bank_encapsulation bank=new Bank_encapsulation();
-		bank.setAccno(1234);
-		bank.setBalance(5000);
-		bank.setPin(1234);
-		System.out.println(bank.getAccono()+" "+bank.getBalance()+" "+bank.getPin());
+//		Childoverride co=new Childoverride();
+//		co.game();
+//		
+//		System.out.println("Encapsulation...");
+//		Bank_encapsulation bank=new Bank_encapsulation();
+//		bank.setAccno(1234);
+//		bank.setBalance(5000);
+//		bank.setPin(1234);
+//		System.out.println(bank.getAccono()+" "+bank.getBalance()+" "+bank.getPin());
 
+	
+		System.out.println("Abstraction");
+		ExamReg_abstract exam=new Subexmareg_implement();
+		exam.Reg();
+		exam.hide();
+		
+		Interfaces inte = new Interfaceimplements();
+		inte.add();
+		
+		Hide  hide =new Interfaceimplements();
+		hide.team("Welcome to JAVA");
+		hide.display();
+		Hide.day();
+	
 	}
 
 }
